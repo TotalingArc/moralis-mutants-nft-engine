@@ -9,7 +9,7 @@ const signImage = (ctx, sig) => {
   ctx.fillText(sig, 40, 40);
 };
 
-// generate a random color hue
+// generate a random color
 const genColor = () => {
   let hue = Math.floor(Math.random() * 360);
   let pastel = `hsl(${hue}, 100%, 85%)`;
